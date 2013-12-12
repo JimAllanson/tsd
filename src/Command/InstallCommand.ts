@@ -9,7 +9,7 @@ module Command {
 
     export class InstallCommand extends BaseCommand {
         public shortcut: string = "install";
-        public usage: string = "Intall file definition. Use install* to map dependencies.";
+        public usage: string = "Install file definition. Use install* to map dependencies.";
         private _args: Array;
         private _cache: string[] = [];
         private _index: number = 0;
